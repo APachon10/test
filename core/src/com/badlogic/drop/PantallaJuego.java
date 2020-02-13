@@ -30,7 +30,7 @@ public class PantallaJuego implements Screen {
     int dropsGathered;
 
     public PantallaJuego(final Drop game) {
-        this.game = new Drop();
+        this.game = game;
 
         // load the images for the droplet and the bucket, 64x64 pixels each
         dropImage = new Texture(Gdx.files.internal("droplet.png"));
